@@ -1,1 +1,14 @@
 <h1>My To DO List</h1>
+
+<table>
+    <tr>
+        <th>Items</th>
+    </tr>
+    {% for task in object_list %}
+    <tr>
+        <td>{{task.title}}</td>
+    </tr>
+    {% empty %}
+    <h1>No items in list </h1>
+    {% endfor %}
+</table>
