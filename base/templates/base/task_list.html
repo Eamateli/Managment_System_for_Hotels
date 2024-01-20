@@ -2,11 +2,13 @@
 
 <table>
     <tr>
-        <th>Items</th>
+        <th>Item</th>
+        <th></th>
     </tr>
-    {% for tasks in object_list %}
+    {% for task in tasks %}
     <tr>
         <td>{{task.title}}</td>
+        <td><a href="{% url 'tasks' task.id %}">View</a></td>
     </tr>
     {% empty %}
     <h1>No items in list </h1>
