@@ -12,5 +12,12 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
       * Add the libries in **settings.py**: 'import-export', 'crispy-forms', 'mathfilters', 'ckeditor_uploader', 'django_ckeditor_5', 'taggit',
       * Run the server: **python manage.py runserver** (click the link showing on the terminal, ctrl + left click)
       
-
+2. Setup Django Admin 
+      * Install Django Jazzmin: **pip install django-jazzmin**
+      * Add Jazzmin to settings.py INSTALLED apps Section at the end
+      * Configure Jazzmin Settings
+      * Configure Jazzmin UI Tweaks
+      * Create Superuser
+      * Migrate Database
+      * Login to the admin section 
    
