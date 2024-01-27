@@ -17,7 +17,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
       * Add Jazzmin to settings.py INSTALLED apps Section at the end
       * Configure Jazzmin Settings
       * Configure Jazzmin UI Tweaks
-      * Create Superuser
-      * Migrate Database
+      * Migrate Database: **python manage.py migrate**
+      * Create Superuser: **python manage.py createsuperuser**
       * Login to the admin section 
    
