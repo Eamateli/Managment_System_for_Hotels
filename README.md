@@ -94,9 +94,8 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         }        
         
            
-      * Configure Jazzmin UI Tweaks
-                
-       ```python
+      * Configure Jazzmin UI Tweaks                
+     ```python
        JAZZMIN_UI_TWEAKS = {
         "navbar_small_text": False,
         "footer_small_text": False,
