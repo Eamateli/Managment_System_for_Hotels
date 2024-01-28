@@ -42,7 +42,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
                  'jazzmin'
            ]
       * Configure Jazzmin Settings:
-        ```python
+        <pre> ```python
            JAZZMIN_SETTINGS = {
     'site_header': "Luxury",
     'site_brand': "Luxury",
@@ -91,9 +91,9 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
     },
     
     "show_ui_builder": True
-}
+} ``` </pre>
       * Configure Jazzmin UI Tweaks
-        ```python
+        <pre> ```python
            JAZZMIN_UI_TWEAKS = {
     "navbar_small_text": False,
     "footer_small_text": False,
@@ -125,7 +125,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         "success":"btn-success"
              
     }
-}
+} ``` </pre>
 
       * Migrate Database: <pre> ``` python manage.py migrate ``` </pre>
       * Create Superuser: <pre> ``` python manage.py createsuperuser ``` </pre>
