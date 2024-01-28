@@ -158,7 +158,7 @@ JAZZMIN_SETTINGS = {
     'site_brand': "Luxury",
     'site_logo': "images/logo.png",
     'copyright': "The Agency",
-    'welcome_sign':"Welcome to Luxury, Admin! Please Log in.",
+    'welcome_sign':"Please Log in.",
     'topmenu_links': [
         
         {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
