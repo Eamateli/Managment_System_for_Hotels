@@ -94,8 +94,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         }        
         
            
-      * Configure Jazzmin UI Tweaks
-        <pre>
+      * Configure Jazzmin UI Tweaks<pre>
      ```python     
      JAZZMIN_UI_TWEAKS = {
         "navbar_small_text": False,
@@ -130,7 +129,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         }
    }
 </pre>
-      * Migrate Database: <pre> ``` python manage.py migrate ``` </pre>
-      * Create Superuser: <pre> ``` python manage.py createsuperuser ``` </pre>
+      * Migrate Database: <pre> ```  python manage.py migrate ``` </pre>
+      * Create Superuser: <pre> ```  python manage.py createsuperuser ``` </pre>
       * Login to the admin dashboard: http://127.0.0.1:8000/admin/
    
