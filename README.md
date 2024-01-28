@@ -7,7 +7,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
 
       * Add the apps in settings.py (make sure to have commas and single quotation marks, order is irrelevant)
         
-      * Install the required libraries: **pip install django-ckeditor django-ckeditor-5 django-crispy-forms     django-import-export django-mathfilters django-taggit pillow shortuuid**
+      * Install the required libraries: <pre> ``` pip install django-ckeditor django-ckeditor-5 django-crispy-forms django-import-export django-mathfilters django-taggit pillow shortuuid ``` </pre>
       * Add installed packages/libraries to requirements.txt: **pip freeze > requirements.txt**
       * Add the libries in **settings.py**: 'import-export', 'crispy-forms', 'mathfilters', 'ckeditor_uploader', 'django_ckeditor_5', 'taggit',
       * Run the server: **python manage.py runserver** (click the link showing on the terminal, ctrl + left click)
