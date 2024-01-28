@@ -88,3 +88,30 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
     ```
 
   * Login to the admin dashboard: http://127.0.0.1:8000/admin/
+
+
+3. **Configure Templates and Static Files:**
+    * Create a new folder named `templates`.
+    * Set the template configuration in `settings.py`:
+        ```python
+        TEMPLATES = [
+            # ... 
+            'DIRS': [os.path.join(BASE_DIR, 'templates')],
+            # ...
+        ]
+        ```
+    * Create new folders named `media` and `static`.
+    * Configure the static and media folders in `settings.py`:
+        ```python
+        STATIC_URL = '/static/'
+
+        STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+        STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+        MEDIA_URL = '/media/'
+
+        MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+        ```
+    * Add files (css, fonts, images, scripts, Stock Images, etc.) to the `static` folder.
+
