@@ -143,7 +143,7 @@ JAZZMIN_SETTINGS = {
     'site_header': "The Site ",
     'site_brand': "Best Site",
     'site_logo': "/images/logo.png",
-    'copyright': "All Right Reserved 2024",
+    'copyright': "The Agency",
     'welcome_sign':"Welcome to the site, Login Now",
     'topmenu_links': [
         
@@ -190,27 +190,28 @@ JAZZMIN_SETTINGS = {
 }
 
 JAZZMIN_UI_TWEAKS = {
+    
     "navbar_small_text": False,
     "footer_small_text": False,
     "body_small_text": True,
     "brand_small_text": False,
-    "brand_colour": "navbar-indigo",
-    "accent": "accent-olive",
-    "navbar": "navbar-indigo navbar-dark",
+    "brand_colour": "navbar-lightblue text-white ",
+    "accent": "accent-cyan",
+    "navbar": "navbar-lightblue navbar-dark",
     "no_navbar_border": False,
     "navbar_fixed": False,
     "layout_boxed": False,
     "footer_fixed": False,
     "sidebar_fixed": False,
-    "sidebar": "sidebar-dark-indigo",
+    "sidebar": "sidebar-dark-yellow",
     "sidebar_nav_small_text": False,
     "sidebar_disable_expand": False,
     "sidebar_nav_child_indent": False,
     "sidebar_nav_compact_style": False,
     "sidebar_nav_legacy_style": False,
     "sidebar_nav_flat_style": False,
-    "theme": "cyborg",
-    "dark_mode_theme": "cybord",
+    "theme": "darkly",
+    "dark_mode_theme": "darkly",
     "button_classes": {
         "primary": "btn-primary",
         "secondary": "btn-secondary",
