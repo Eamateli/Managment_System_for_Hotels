@@ -1,7 +1,15 @@
 MANAGEMENT SYSTEM FOR HOTELS USING DJANGO 
 
 1. Create a new django project
-      * Create a new django project where you want it: ```django-admin startproject projectname```
+      * Create a new django project where you want it: <pre>
+```python
+# Your Python code goes here
+def hello_world():
+    print("Hello, World!")
+
+hello_world()
+```
+</pre>
 
       * Create new app userauths, hotel, user_dashboard, userauths: **python manage.py startapp appname**
 
