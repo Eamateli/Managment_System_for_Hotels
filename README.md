@@ -1,14 +1,14 @@
-* **Create a new Django project:**
+* 1. **Create a new Django project:**
     ```bash
     django-admin startproject projectname
     ```
 
-    Create new apps: 
+    * Create new apps: 
     ```bash
     python manage.py startapp appname
     ```
 
-    Add the apps in settings.py:
+  * Add the apps in settings.py:
     ```python
     INSTALLED_APPS = [
         # ...
