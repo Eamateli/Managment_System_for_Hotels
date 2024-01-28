@@ -31,10 +31,10 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
                          'taggit',
               
         ]
-      * Start the server: ``` python manage.py runserver ``` (click the link showing on the terminal, ctrl + left click)
+      * Start the server:<pre>``` python manage.py runserver ```</pre> (click the link showing on the terminal, ctrl + left click)
       
 2. Setup Django Admin 
-      * Install Django Jazzmin: ``` pip install django-jazzmin ```
+      * Install Django Jazzmin: <pre>``` pip install django-jazzmin ```</pre>
       * Add Jazzmin to settings.py INSTALLED_APPS, at the end
       * Configure Jazzmin Settings
       * Configure Jazzmin UI Tweaks
