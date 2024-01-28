@@ -42,8 +42,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
                  'jazzmin'
            ]
       * Configure Jazzmin Settings:
-        ```python
-        
+        ```python        
        JAZZMIN_SETTINGS = {
        'site_header': "Luxury",
        'site_brand': "Luxury",
@@ -96,8 +95,8 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         
            
       * Configure Jazzmin UI Tweaks
+                
        ```python
-
        JAZZMIN_UI_TWEAKS = {
         "navbar_small_text": False,
         "footer_small_text": False,
