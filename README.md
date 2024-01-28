@@ -113,8 +113,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
     },
     
     "show_ui_builder": True
-}
-    ```
+    }
 
   * Configure Jazzmin UI Tweaks:
     ```python
@@ -149,8 +148,8 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         "success":"btn-success"
              
     }
-}
-    ```
+    }
+        
 
   * Migrate Database:
     ```bash
