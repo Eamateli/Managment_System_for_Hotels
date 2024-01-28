@@ -1,9 +1,11 @@
-* 1. **Create a new Django project:**
+MANAGEMENT SYSTEM FOR HOTELS USING DJANGO 
+
+1. **Create a new Django project:**
     ```bash
     django-admin startproject projectname
     ```
 
-    * Create new apps: 
+  * Create new apps: 
     ```bash
     python manage.py startapp appname
     ```
@@ -19,17 +21,17 @@
     ]
     ```
 
-    Install required libraries:
+  * Install required libraries:
     ```bash
     pip install django-ckeditor django-ckeditor-5 django-crispy-forms django-import-export django-mathfilters django-taggit pillow shortuuid
     ```
 
-    Add installed packages/libraries to requirements.txt:
+  * Add installed packages/libraries to requirements.txt:
     ```bash
     pip freeze > requirements.txt
     ```
 
-    Add the libraries in settings.py:
+  * Add the libraries in settings.py:
     ```python
     INSTALLED_APPS = [
         # ...
@@ -42,18 +44,18 @@
     ]
     ```
 
-    Start the server:
+  * Start the server:
     ```bash
     python manage.py runserver
     ```
 
-* **Setup Django Admin:**
-    Install Django Jazzmin:
+2. **Setup Django Admin:**
+  * Install Django Jazzmin:
     ```bash
     pip install django-jazzmin
     ```
 
-    Add Jazzmin to INSTALLED_APPS in settings.py:
+  * Add Jazzmin to INSTALLED_APPS in settings.py:
     ```python
     INSTALLED_APPS = [
         # ...
@@ -61,28 +63,28 @@
     ]
     ```
 
-    Configure Jazzmin Settings:
+  * Configure Jazzmin Settings:
     ```python
     JAZZMIN_SETTINGS = {
         # ...
     }
     ```
 
-    Configure Jazzmin UI Tweaks:
+  * Configure Jazzmin UI Tweaks:
     ```python
     JAZZMIN_UI_TWEAKS = {
         # ...
     }
     ```
 
-    Migrate Database:
+  * Migrate Database:
     ```bash
     python manage.py migrate
     ```
 
-    Create Superuser:
+  * Create Superuser:
     ```bash
     python manage.py createsuperuser
     ```
 
-    Login to the admin dashboard: http://127.0.0.1:8000/admin/
+  * Login to the admin dashboard: http://127.0.0.1:8000/admin/
