@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -70,7 +71,7 @@ ROOT_URLCONF = 'Mng_Sys.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -133,6 +134,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -142,9 +145,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 JAZZMIN_SETTINGS = {
     'site_header': "Luxury",
     'site_brand': "Luxury",
-    'site_logo': "/images/logo.png",
+    'site_logo': "static/images/logo.png",
     'copyright': "The Agency",
-    'welcome_sign':"Welcome to the site, Login Now",
+    'welcome_sign':"Welcome to Luxury, Admin! Please Log in.",
     'topmenu_links': [
         
         {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
