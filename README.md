@@ -6,7 +6,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
       * Create new app userauths, hotel, user_dashboard, userauths: <pre> ``` python manage.py startapp appname ``` </pre>
 
       * Add the apps in settings.py (make sure to have commas and single quotation marks, order is irrelevant):
-        ```python
+        <pre>```python
         INSTALLED_APPS = [
                ...
                #Apps
@@ -15,7 +15,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
               'user_dashboard',
               'userauths',
               
-        ]
+        ] </pre>
       * Install the required libraries: <pre> ``` pip install django-ckeditor django-ckeditor-5 django-crispy-forms django-import-export django-mathfilters django-taggit pillow shortuuid ``` </pre>
       * Add installed packages/libraries to requirements.txt: <pre>``` pip freeze > requirements.txt ```</pre>
       * Add the libries in **settings.py**:
