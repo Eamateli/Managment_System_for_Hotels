@@ -42,24 +42,22 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
                  'jazzmin'
            ]
       * Configure Jazzmin Settings:
-        
-           JAZZMIN_SETTINGS = {
-        
-    'site_header': "Luxury",
-    'site_brand': "Luxury",
-    'site_logo': "images/logo.png",
-    'copyright': "The Agency",
-    'welcome_sign':"Welcome to Luxury, Admin! Please Log in.",
-    'topmenu_links': [
+        ```python
+        JAZZMIN_SETTINGS = {
+       'site_header': "Luxury",
+       'site_brand': "Luxury",
+       'site_logo': "images/logo.png",
+       'copyright': "The Agency",
+       'welcome_sign':"Welcome to Luxury, Admin! Please Log in.",
+       'topmenu_links': [
         
         {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
         {"name": "Company","url":"/admin/addon/company/"},
         {"name": "Users", "url":"/admin/userauths/user/"},
         
         {"model": "AUTH_USER_MODEL.User"},
-    ],
-    "order_with_respect_to": [
-
+        ],
+       "order_with_respect_to": [
         "hotel",
         "hotel.Hotel",
         "hotel.Room",
@@ -71,10 +69,10 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         "addon",
         
         
-    ],
-    "icons": {
-   
-        "admin.LogEntry": "fas fa-file",
+        ],
+       "icons": {
+       "admin.LogEntry": "fas fa-file",
+        
         "auth": "fas fa-users-cog",
         "auth.user": "fas fa-user",
         
@@ -90,13 +88,15 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         "hotel.Notification":"fas fa-bell",
         "hotel.Coupon":"fas fa-tag",
         "hotel.Bookmark": "fas fa-heart",
-    },
+       },
     
-    "show_ui_builder": True
-} 
+        "show_ui_builder": True
+        }        
+        
+           
       * Configure Jazzmin UI Tweaks
-       
-           JAZZMIN_UI_TWEAKS = {
+       ```python
+JAZZMIN_UI_TWEAKS = {
     "navbar_small_text": False,
     "footer_small_text": False,
     "body_small_text": True,
@@ -127,7 +127,8 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         "success":"btn-success"
              
     }
-} 
+}
+
 
       * Migrate Database: <pre> ``` python manage.py migrate ``` </pre>
       * Create Superuser: <pre> ``` python manage.py createsuperuser ``` </pre>
