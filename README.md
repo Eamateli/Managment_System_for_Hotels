@@ -189,3 +189,15 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
         ```
     * Add files (css, fonts, images, scripts, Stock Images, etc.) to the `static` folder.
 
+
+4. **Custom User and Profile Model**
+    * Create 'user'and 'profile' models in 'userauths/models.py'
+    * Add the in the 'userauths/admin.py' 'UserAdmin' and 'ProfileAdmin'
+    * Run migration commands
+    ```bash
+    python manage.py makemigrations
+    ```
+    ```
+    python mange.py migrate
+    ```
+    * Run server and test the models
