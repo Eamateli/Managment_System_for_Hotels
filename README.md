@@ -1,7 +1,7 @@
 MANAGEMENT SYSTEM FOR HOTELS USING DJANGO 
 
 1. Create a new django project
-      * Create a new django project where you want it: <pre>
+      * Create a new django project where you want it:
 ```python
 # Your Python code goes here
 def hello_world():
@@ -9,7 +9,7 @@ def hello_world():
 
 hello_world()
 ```
-</pre>
+
 
       * Create new app userauths, hotel, user_dashboard, userauths: **python manage.py startapp appname**
 
