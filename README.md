@@ -65,7 +65,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
 
   * Configure Jazzmin Settings:
     ```python
-JAZZMIN_SETTINGS = {
+    JAZZMIN_SETTINGS = {
     'site_header': "Luxury",
     'site_brand': "Luxury",
     'site_logo': "images/logo.png",
