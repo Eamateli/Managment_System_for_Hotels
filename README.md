@@ -14,7 +14,7 @@ MANAGEMENT SYSTEM FOR HOTELS USING DJANGO
       
 2. Setup Django Admin 
       * Install Django Jazzmin: **pip install django-jazzmin**
-      * Add Jazzmin to settings.py INSTALLED apps Section at the end
+      * Add Jazzmin to settings.py INSTALLED_APPS, at the end
       * Configure Jazzmin Settings
       * Configure Jazzmin UI Tweaks
       * Migrate Database: **python manage.py migrate**
