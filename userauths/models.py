@@ -26,8 +26,6 @@ def user_directory_path(instance, filename):
     return "user_{0}/{1}".format(instance.user.id, filename)
 
 class User(AbstractUser):
-    groups = models.ManyToManyField(Group, verbose_name=_('groups'), blank=True, related_name='userauth_groups')
-    user_permissions = models.ManyToManyField(Permission, verbose_name=_('user permissions'), blank=True, related_name='userauth_user_permissions')
     username = models.CharField(max_length=500, unique=True)
     full_name = models.CharField(max_length=500, null=True, blank=True)
     email = models.CharField(unique=True, max_length=255)
