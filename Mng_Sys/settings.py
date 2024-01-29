@@ -153,7 +153,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = "userauths.User"
 
 
-JAZZMIN_SETTINGS = {
+JAZZMIN_SETTINGS = {   
     'site_header': "Luxury",
     'site_brand': "Luxury",
     'site_logo': "images/logo.png",
@@ -201,6 +201,7 @@ JAZZMIN_SETTINGS = {
     },
     
     "show_ui_builder": True
+    
 }
 
 JAZZMIN_UI_TWEAKS = {
