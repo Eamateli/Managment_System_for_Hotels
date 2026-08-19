@@ -1,7 +1,7 @@
 asgiref==3.7.2
 defusedxml==0.7.1
 diff-match-patch==20230430
-Django==5.0.1
+Django==5.2.16
 django-ckeditor==6.7.0
 django-ckeditor-5==0.2.11
 django-crispy-forms==2.1
